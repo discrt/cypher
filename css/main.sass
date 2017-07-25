@@ -1,0 +1,127 @@
+@import "materialize"
+@import "palette"
+
+body
+  background: pink
+  .atop
+    box-shadow: none
+    padding: 16px 0
+    height: 80px
+    background: transparent
+  .navbar-fixed
+    position: fixed
+  nav
+    background: $smoky-black
+    transition: all 0.3s ease-in-out
+    .container
+      max-width: 50%
+      display: flex
+      justify-content: center
+    .brand-logo
+      position: relative
+      order: 0
+      left: 0
+      img
+        width: 64px
+        height: 64px
+    #nav-mobile
+      li
+        a
+          color: white
+          font:
+            size: 1rem
+            weight: 700
+          text-transform: uppercase
+  header
+    background: $jet
+    height: 140vh
+    .container
+      width: 85%
+      video
+        height: 70vh
+        position: absolute
+        z-index: 2
+        top: 20vh
+        right: 15vw
+        border-radius: 3px
+        opacity: 0.8
+        box-shadow: 6px 6px 15px transparentize(black, 0.5)
+
+
+      .row1
+        position: relative
+        z-index: 5
+        padding: 25vh 0
+
+        .s1
+          height: 55vh
+          width: 2rem
+          border:
+            top: solid 0.5rem $desat-cyan
+            bottom: solid 0.5rem $desat-cyan
+        .left
+          border-left: solid 0.5rem $desat-cyan
+        .right
+          border-right: solid 0.5rem $desat-cyan
+        .title
+          //height: 40vh
+          padding-left: 1.5rem
+          h1
+            color: $desat-cyan
+            font-family: cursive
+            font-style: italic
+          p
+            margin: 0 0 1rem 0
+            color: white
+          .call-to-action1
+            color: white
+            border-radius: 2px
+            padding: 1rem 5rem
+            background: $tuscan-red
+
+            font:
+              size: 1.25rem
+            box-shadow: 2px 2px 6px transparentize(black, 0.4)
+            transition: all 300ms ease-in-out
+            &:hover
+              color: white
+              background: $desat-cyan
+              box-shadow: 2px 2px 12px transparentize(black, 0.5)
+
+      @media (max-width: 1280px)
+        h1
+          font-size: 4rem
+      @media (max-width: 1000px)
+        video
+          height: 100vh
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        .row1
+          .s1
+            height: 47vh
+        .title
+          //height: 40vh
+          padding-left: 0
+        h1
+          font-size: 3.5rem
+          margin: 1rem 0
+        .call-to-action1
+          padding: 0.5rem 1.75rem
+      @media (max-width: 1000px)
+        h1
+          font-size: 3rem
+
+  @media (max-width: 600px)
+    header
+      .container
+        text-align: center
+        h1
+          font-size: 3.25rem
+        .s1
+          display: none
+
+
+.filler
+  height: 1500px
