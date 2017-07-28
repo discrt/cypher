@@ -57,19 +57,20 @@ body
           height: 55vh
           width: 2rem
           border:
-            top: solid 0.5rem $desat-cyan
-            bottom: solid 0.5rem $desat-cyan
+            top: solid 0.5rem $desat-cyan-bright
+            bottom: solid 0.5rem $desat-cyan-bright
         .left
-          border-left: solid 0.5rem $desat-cyan
+          border-left: solid 0.5rem $desat-cyan-bright
         .right
-          border-right: solid 0.5rem $desat-cyan
+          border-right: solid 0.5rem $desat-cyan-bright
         .title
           //height: 40vh
           padding-left: 1.5rem
           h1
-            color: $desat-cyan
+            color: $desat-cyan-bright
             font-family: cursive
             font-style: italic
+            text-shadow: 0px 0px 3px transparentize(black, 0.8)
           p
             margin: 0 0 1rem 0
             color: white
@@ -113,15 +114,55 @@ body
         h1
           font-size: 3rem
 
-  @media (max-width: 600px)
-    header
+    @media (max-width: 600px)
       .container
         text-align: center
         h1
           font-size: 3.25rem
         .s1
           display: none
+  #collab
+    .container
+      text-align: center
+      margin-top: -30vh
+      .row
+        .card
+          padding-bottom: 1.25rem
+          //background: white
 
+        .image
+          height: 10rem
+          margin-bottom: 1rem
+          background:
+            position: center left
+            size: cover
+        h4
+          font-size: 2rem
+          margin-bottom: 1rem
+        a
+          svg
+            height: 3rem
+            width: 3rem
+            border-radius: 50%
+            background-color: $desat-cyan
+
+            path
+              fill: white
+            &:hover
+              box-shadow: 0px 1px 3px transparentize(black, 0.5)
+    .sponsors
+      max-width: 85%
+      margin: 5rem auto 4rem
+      text-align: center
+      .col
+        padding: 2rem 0
+      .logo
+        height: 10rem
+        width: 10rem
+        border-radius: 50%
+        background:
+          position: center
+          size: cover
 
 .filler
   height: 1500px

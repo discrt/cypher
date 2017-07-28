@@ -6841,18 +6841,19 @@ body {
         body header .container .row1 .s1 {
           height: 55vh;
           width: 2rem;
-          border-top: solid 0.5rem #669999;
-          border-bottom: solid 0.5rem #669999; }
+          border-top: solid 0.5rem #66AAA0;
+          border-bottom: solid 0.5rem #66AAA0; }
         body header .container .row1 .left {
-          border-left: solid 0.5rem #669999; }
+          border-left: solid 0.5rem #66AAA0; }
         body header .container .row1 .right {
-          border-right: solid 0.5rem #669999; }
+          border-right: solid 0.5rem #66AAA0; }
         body header .container .row1 .title {
           padding-left: 1.5rem; }
           body header .container .row1 .title h1 {
-            color: #669999;
+            color: #66AAA0;
             font-family: cursive;
-            font-style: italic; }
+            font-style: italic;
+            text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); }
           body header .container .row1 .title p {
             margin: 0 0 1rem 0;
             color: white; }
@@ -6890,13 +6891,47 @@ body {
       @media (max-width: 1000px) {
         body header .container h1 {
           font-size: 3rem; } }
-  @media (max-width: 600px) {
-    body header .container {
-      text-align: center; }
-      body header .container h1 {
-        font-size: 3.25rem; }
-      body header .container .s1 {
-        display: none; } }
+    @media (max-width: 600px) {
+      body header .container {
+        text-align: center; }
+        body header .container h1 {
+          font-size: 3.25rem; }
+        body header .container .s1 {
+          display: none; } }
+  body #collab .container {
+    text-align: center;
+    margin-top: -30vh; }
+    body #collab .container .row .card {
+      padding-bottom: 1.25rem; }
+    body #collab .container .row .image {
+      height: 10rem;
+      margin-bottom: 1rem;
+      background-position: center left;
+      background-size: cover; }
+    body #collab .container .row h4 {
+      font-size: 2rem;
+      margin-bottom: 1rem; }
+    body #collab .container .row a svg {
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: #669999; }
+      body #collab .container .row a svg path {
+        fill: white; }
+      body #collab .container .row a svg:hover {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); }
+  body #collab .sponsors {
+    max-width: 85%;
+    margin: 5rem auto 4rem;
+    text-align: center; }
+    body #collab .sponsors .col {
+      padding: 2rem 0; }
+    body #collab .sponsors .logo {
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover; }
 
 .filler {
   height: 1500px; }
