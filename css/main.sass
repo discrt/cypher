@@ -2,6 +2,7 @@
 @import "palette"
 
 body
+  overflow-x: hidden
   background: gainsboro
   .atop
     box-shadow: none
@@ -32,6 +33,11 @@ body
             size: 1rem
             weight: 700
           text-transform: uppercase
+  #mobile-demo
+    background-color: $gainsboro
+    padding: 2rem
+    color: $jet
+
   header
     background:
       image: url('../img/drawing.svg')
@@ -71,8 +77,8 @@ body
           padding-left: 1.5rem
           h1
             color: $desat-cyan-bright
-            font-family: cursive
-            font-style: italic
+            font-family: 'stainy', cursive
+            //font-size: 5rem
             text-shadow: 0px 0px 3px transparentize(black, 0.8)
           p
             margin: 0 0 1rem 0
@@ -117,14 +123,30 @@ body
       @media (max-width: 1000px)
         h1
           font-size: 3rem
-
     @media (max-width: 600px)
       .container
         text-align: center
+        video
+          height: 100vh
+          width: auto
+          top: 0
+          right: 0
+          bottom: 0
+          left: -50%
+          box-shadow: none
         h1
           font-size: 3.25rem
         .s1
           display: none
+    @media (max-width: 420px)
+      .container
+        video
+          height: 100vh
+          width: auto
+          top: 0
+          right: 0
+          bottom: 0
+          left: -110%
   #collab
     //background: $gainsboro
     .container
@@ -232,6 +254,8 @@ body
               color: white
               background: $tuscan-red
               box-shadow: 2px 2px 12px transparentize(black, 0.5)
+          .b2
+            background: #222333
         .call-left
           text-align: left
           padding: 2rem 0 2rem 3rem
@@ -254,39 +278,72 @@ body
         .row
           .calls
             text-align: center
+            padding: 8rem 0 0
+            position: absolute
+            left: 0
+          .col
+            width: 100%
+            margin: 0
           h1
             font-size: 3.25rem
           .s1
             display: none
   footer
+    background: $gainsboro
     .container
       width: 90%
+      padding: 5rem 0 1.25em
       .row
+        h5
+          color: $tuscan-red
+        a
+          color: $jet
+        .col
+          margin: 2rem auto
         .s12
-          padding: 2rem
           text-align: center
+          p
+            color: grey
           img
             width: 80px
         .m3
           a
             display: block
         .social-icons
+          padding: 4rem 0 2rem
           a
             margin: 0 1rem
             svg
               height: 3rem
               width: 3rem
-              background: gainsboro
-              border: 1px solid $jet
+              //background: $gainsboro
               border-radius: 100%
-              box-shadow: 1px 2px 4px transparentize(black, 0.3)
+              //box-shadow: 0px 0px 1px inset transparentize(black, 0.5)
+              box-shadow: 1px 2px 4px transparentize(black, 0.9)
+              path
+                fill: $smoky-black
+              &:hover
+                box-shadow: 1px 2px 4px transparentize(black, 0.5)
+          #insta
+            &:hover
+              path
+                fill: $tuscan-red
+
+          #fb
+            &:hover
               path
                 fill: $jet
+          #twit
+            &:hover
+              path
+                fill: $desat-cyan-bright
+    p
+      text-align: center
+      color: grey
+      margin: 0
+      padding-bottom: 1rem
+      span
+        color: red
 
-
-
-
-
-
-.filler
-  height: 500px
+      a
+        color: grey

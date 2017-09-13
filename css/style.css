@@ -1,0 +1,138 @@
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+.filler{
+  padding-top: 100px;
+}
+body{
+  background: rgba(51, 52, 68, 1);
+}
+.blog-section{
+  color: rgba(51, 52, 68, 1);
+}
+.blog-section p{
+  color: grey;
+}
+.blog-section .row .col{
+  background: white;
+}
+.blog-section .row .col a{
+  color: #66AAA0;
+  margin-left: calc(50% - 6rem);
+  padding: .75rem 3rem;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px -2px black;
+  background: rgba(51, 52, 68, 1);
+}
+.blog-section .row .col a:hover{
+  color: white;
+  background: rgba(128, 80, 80, 1);
+  box-shadow: 2px 2px 8px black;
+}
+.container .row {
+  background: gainsboro;
+  height: 15rem;
+  box-shadow: 5px 5px 10px -3px black;
+}
+@media (max-width: 405px) {
+  .blog-section .row{
+    height: 17rem;
+  }
+}
+.container .row .col {
+  padding: 1rem;
+  height: 100%;
+}
+.container .row .img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  margin: 0 0 2rem calc(50% - 5rem);
+  width: 10rem;
+  padding: 0.5rem 0;
+  font-weight: 700;
+  background: #66AAA0;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px -2px black;
+}
+body .heading, h2 .heading, h2 .heading, h4 .heading, h5 .heading, h6 .heading {
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0 1rem;
+}
+body .comments, h2 .comments, h2 .comments, h4 .comments, h5 .comments, h6 .comments {
+  padding: 3rem 0;
+}
+body .comments .comment-list, h2 .comments .comment-list, h2 .comments .comment-list, h4 .comments .comment-list, h5 .comments .comment-list, h6 .comments .comment-list {
+  list-style: none;
+}
+body .comments .comment-list .comment-author p, h2 .comments .comment-list .comment-author p, h2 .comments .comment-list .comment-author p, h4 .comments .comment-list .comment-author p, h5 .comments .comment-list .comment-author p, h6 .comments .comment-list .comment-author p {
+  margin: 0;
+}
+body .comments .comment-list li, h2 .comments .comment-list li, h2 .comments .comment-list li, h4 .comments .comment-list li, h5 .comments .comment-list li, h6 .comments .comment-list li {
+  padding: 1rem 0;
+}
+body .leave-comment, h2 .leave-comment, h2 .leave-comment, h4 .leave-comment, h5 .leave-comment, h6 .leave-comment {
+  text-align: center;
+}
+
+body footer .container {
+  width: 90%;
+  padding: 5rem 0 1.25em; }
+  body footer .container .row{
+    box-shadow: none;
+    height: auto;
+  }
+  body footer .container .row h5 {
+    color: #805050; }
+  body footer .container .row a {
+    color: #333444; }
+  body footer .container .row .col {
+    margin: 2rem auto; }
+  body footer .container .row .s12 {
+    text-align: center; }
+    body footer .container .row .s12 p {
+      color: grey; }
+    body footer .container .row .s12 img {
+      width: 80px; }
+  body footer .container .row .m3 a {
+    display: block; }
+  body footer .container .row .social-icons {
+    padding: 4rem 0 2rem; }
+    body footer .container .row .social-icons a {
+      margin: 0 1rem; }
+      body footer .container .row .social-icons a svg {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); }
+        body footer .container .row .social-icons a svg path {
+          fill: #0a0a0a; }
+        body footer .container .row .social-icons a svg:hover {
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); }
+    body footer .container .row .social-icons #insta:hover path {
+      fill: #805050; }
+    body footer .container .row .social-icons #fb:hover path {
+      fill: #333444; }
+    body footer .container .row .social-icons #twit:hover path {
+      fill: #66AAA0; }
+body footer p {
+  text-align: center;
+  color: grey; }
+  body footer p span {
+    color: red; }
+  body footer p a {
+    color: grey; }

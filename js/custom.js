@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav();
+
+$('.modal').modal();
+
   //new code
   $(window).scroll(function(){
     var wScroll = $(this).scrollTop();

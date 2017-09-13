@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blog Post</title>
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+
+
+      <link rel="stylesheet" href="css/master.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="atop">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="container">
+          <a href="#" class="brand-logo">
+            <!--SVG of the logo comes here-->
+            <img src="img/logo.png" alt="">
+          </a>
+          <ul id="nav-mobile" class="hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#products">Artists</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+  </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="#products">Artists</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="content">
+    <div class="container">
+      <div class="heading">
+        <h2>This is the blog Heading</h2>
+        <p>by
+          <cite>Name of the author </cite>
+        </p>
+        <p>22/07/2017</p>
+      </div>
+      <div class="blog-image"><img src="https://fillmurray.com/600/600" alt=""/></div>
+      <p>This is the actual content of the blog. This contains the news or announcements or whatever the clkient wannts to publish. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum erat dolor, varius non elementum a, ornare elementum nibh. Pellentesque tincidunt nibh in nulla tempor, vitae efficitur arcu tincidunt. Sed eget risus quis felis tincidunt dignissim ut non sem. Aliquam quis sapien est. Proin tempus odio non elit rutrum, commodo rhoncus nulla luctus. Mauris scelerisque, mauris non porttitor mattis, massa tortor aliquam lacus, sed fringilla ipsum metus sed nunc. </p>
+      <blockquote>Morbi facilisis ipsum vitae ipsum mattis, in tempus purus rutrum. Fusce laoreet quam turpis, id interdum dui ullamcorper ut.</blockquote>
+      <p>Vivamus efficitur eros sed commodo efficitur. Nunc ac porta ante. Mauris ut quam quis lacus mollis euismod. Donec elementum neque nunc, blandit lacinia mi posuere quis. Nunc egestas ante at massa consectetur, nec gravida turpis consectetur. Donec eget lorem eget odio ullamcorper venenatis consequat ac velit. Sed sed finibus libero.</p>
+      <p>Duions id aliquam felis. Fusce lacinia, felis in sollicitudin auctor, velit elit facilisis dolor, sed consectetur ante nulla ut augue. Nulla libero sapien, vulputate vel ullamcorper id, iaculis ut lacus. Integer tincidunt magna eu ultricies vestibulum. Fusce luctus nisi eget leo dictum, ac rhoncus tortor efficitur. Ut tempor, odio sodales rutrum aliquet, magna leo faucibus quam, a consectetur velit elit a ante. </p>
+      <blockquote>Morbi varius scelerisque purus elementum dictum. Maecenas ac porttitor mi. Nunc ipsum est, imperdiet nec eleifend at, sodales at turpis. Donec sagittis a magna sed varius. Mauris id urna ut erat efficitur porttitor eu accumsan turpis. Vivamus volutpat facilisis malesuada.</blockquote>
+      <Ut>tempor, odio sodales rutrum aliquet, magna leo faucibus quam, a consectetur velit elit a ante.</Ut>
+      <div class="author-details">
+        <div class="row">
+          <div class="col s12 m5 l4 xl3"><img class="avatar" src="http://fillmurray.com/200/200" alt=""/></div>
+          <div class="col s12 m7 l8 xl9">
+            <h5>
+              <cite>Name of the author</cite>
+            </h5>
+            <p>Some description about position role. Favourite food. Fovourite punch line..blah.. blah blah..</p>
+            <div class="portfolio-link"><a class="call-to-action" href="#">Check My Portfolio</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="comments">
+    <div class="container">
+      <div class="comment-button"><a class="call-to-action2" href="#modal1">Join the conversation</a></div>
+      <ol class="comment-list">
+        <li>
+          <div class="comment-author">
+            <cite>Name of the commentor</cite>
+            
+          </div>
+          <div class="comment-content">
+            <p>Great article keep it up</p>
+          </div>
+        </li>
+        <li>
+          <div class="comment-author">
+            <cite>Name of the commentor</cite>
+            
+          </div>
+          <div class="comment-content">
+            <p>One of the best I hv ever read.. 😘</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="modal bottom-sheet" id="modal1">
+    <div class="modal-content">
+      <div class="leave-comment">
+        <h5>Leave a comment</h5>
+        <form action="post"></form>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <input type="text" name="Name" placeholder="Your Name"/>
+            </div>
+            <div class="col s12 m6">
+              <input type="text" name="email" placeholder="Your email"/>
+            </div>
+          </div>
+          <div class="row">
+            <textarea class="materialize-textarea" name="comment" placeholder="Type your Comment"></textarea>
+          </div>
+          <input class="submit-button" type="submit"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m2">
+        <img src="img/logo.png" alt="">
+      </div>
+      <div class="col s6 m3">
+        <h5>Legal</h5>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal Terms</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Publish</a>
+      </div>
+      <div class="col s6 m3">
+        <h5>Info</h5>
+        <a href="#">mail@cypherprojekt.com</a>
+        <a href="#">+915555000</a>
+        <a href="#">Nandan, AJC Bose Road, Kokata-700010</a>
+      </div>
+      <div class="s12 m4">
+        <div class="social-icons">
+          <a id="fb" href="facebook.com">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+  <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M301.004,125.217H265.44
+  	c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771
+  	v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z"/>
+
+  </svg>
+          </a>
+          <a id="insta"href="instagram.com">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 viewBox="0 0 242.667 242.667" style="enable-background:new 0 0 242.667 242.667;" xml:space="preserve">
+  <path d="M168.496,111.025h15.219v65.454c0,3.996-3.24,7.236-7.236,7.236H66.188c-3.996,0-7.236-3.24-7.236-7.236v-65.454h15.219
+  	c-0.723,3.323-1.115,6.769-1.115,10.308c0,26.663,21.614,48.277,48.277,48.277c26.663,0,48.277-21.614,48.277-48.277
+  	C169.61,117.794,169.219,114.347,168.496,111.025z M121.333,153.852c17.959,0,32.518-14.559,32.518-32.518
+  	c0-17.959-14.559-32.518-32.518-32.518c-17.959,0-32.518,14.559-32.518,32.518C88.815,139.293,103.374,153.852,121.333,153.852z
+  	 M160.293,87.937h12.385c3.631,0,6.575-2.944,6.575-6.575V68.978c0-3.631-2.943-6.574-6.575-6.574h-12.385
+  	c-3.631,0-6.574,2.943-6.574,6.574v12.385C153.719,84.994,156.662,87.937,160.293,87.937z M242.667,0v242.667H0V0H242.667z
+  	 M198.623,63.539c0-10.766-8.728-19.494-19.494-19.494H63.539c-10.766,0-19.494,8.728-19.494,19.494v115.59
+  	c0,10.766,8.728,19.494,19.494,19.494h115.59c10.766,0,19.494-8.728,19.494-19.494V63.539z"/>
+  </svg>
+          </a>
+          <a id="twit" href="twitter.com">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+  <g>
+  	<g id="post-twitter">
+  		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+  			 M400.35,186.15c-2.55,117.3-76.5,198.9-188.7,204C165.75,392.7,132.6,377.4,102,359.55c33.15,5.101,76.5-7.649,99.45-28.05
+  			c-33.15-2.55-53.55-20.4-63.75-48.45c10.2,2.55,20.4,0,28.05,0c-30.6-10.2-51-28.05-53.55-68.85c7.65,5.1,17.85,7.65,28.05,7.65
+  			c-22.95-12.75-38.25-61.2-20.4-91.8c33.15,35.7,73.95,66.3,140.25,71.4c-17.85-71.4,79.051-109.65,117.301-61.2
+  			c17.85-2.55,30.6-10.2,43.35-15.3c-5.1,17.85-15.3,28.05-28.05,38.25c12.75-2.55,25.5-5.1,35.7-10.2
+  			C425.85,165.75,413.1,175.95,400.35,186.15z"/>
+  	</g>
+  </g>
+  </svg>
+          </a>
+        </div>
+        <p>© Discrete and The Cypher Projekt 2017</p>
+      </div>
+
+    </div>
+
+  </div>
+  <p>Built with <span>❤️</span> by <a href="#">Discrete</a></p>
+  </footer>
+</body>
+<!--Javascript sarts here-->
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</script>
+
+</body>
+</html>
