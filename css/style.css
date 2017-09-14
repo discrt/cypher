@@ -21,9 +21,12 @@ body{
 }
 .blog-section .row .col{
   background: white;
+  position: relative;
 }
 .blog-section .row .col a{
+  position: absolute;
   color: #66AAA0;
+  bottom: 1rem;
   margin-left: calc(50% - 6rem);
   padding: .75rem 3rem;
   border-radius: 3px;
@@ -37,17 +40,20 @@ body{
 }
 .container .row {
   background: gainsboro;
-  height: 15rem;
+  height: 17rem;
   box-shadow: 5px 5px 10px -3px black;
 }
 @media (max-width: 405px) {
   .blog-section .row{
-    height: 17rem;
+    height: 19rem;
   }
 }
 .container .row .col {
   padding: 1rem;
   height: 100%;
+}
+.container .row .m7{
+  padding-bottom: 1rem;
 }
 .container .row .img {
   background-position: center;
@@ -56,7 +62,7 @@ body{
 }
 
 button {
-  margin: 0 0 2rem calc(50% - 5rem);
+  margin: 2rem 0 2rem calc(50% - 5rem);
   width: 10rem;
   padding: 0.5rem 0;
   font-weight: 700;

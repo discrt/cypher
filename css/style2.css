@@ -52,6 +52,11 @@ body{
   color: grey;
 }
 
+@media (max-width: 600px){
+.author-details .col{
+  text-align: center;
+}
+}
 body .blog-image, h2 .blog-image, h2 .blog-image, h4 .blog-image, h5 .blog-image, h6 .blog-image {
   text-align: center;
 }
