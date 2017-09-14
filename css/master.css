@@ -6912,7 +6912,7 @@ body {
           top: 0;
           right: 0;
           bottom: 0;
-          left: -40%;
+          left: -50%;
           box-shadow: none; }
         body header .container h1 {
           font-size: 3.25rem; }
@@ -6925,7 +6925,7 @@ body {
         top: 0;
         right: 0;
         bottom: 0;
-        left: -110%; } }
+        left: -90%; } }
   body #collab .container {
     width: 75%;
     text-align: center;
@@ -7046,7 +7046,7 @@ body {
         body #action .container .row .s1 {
           display: none; } }
   body footer {
-    background: #dddddd; }
+    background: gains; }
     body footer .container {
       width: 90%;
       padding: 5rem 0 1.25em; }
