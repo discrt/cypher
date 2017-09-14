@@ -288,8 +288,108 @@ body
             font-size: 3.25rem
           .s1
             display: none
+  #contact-wrapper
+    padding: 5rem 0
+    .address-card
+      max-width: 600px
+      width: 80%
+      margin: 2rem auto
+      background: $tuscan-red
+      padding: 2rem 8rem
+      text-align: left
+      border-radius: 3px
+      box-shadow: 30px 30px 50px transparentize(black, 0.6)
+      h3
+        text-align: center
+        padding-bottom: 0.5rem
+        color: white
+        font-size: 3.5rem
+      li
+        padding: 0.5rem 0
+        i
+          color: $desat-cyan-bright
+          padding-right: 1.5rem
+          font-size: 24px
+          vertical-align: -0.25ex
+        a
+          color: white
+          font-size: 1.15rem
+      .social-icons
+        padding: 1rem 0
+        a
+          margin: 0 1rem
+          svg
+            height: 3rem
+            width: 3rem
+            //background: $gainsboro
+            border-radius: 100%
+            //box-shadow: 0px 0px 1px inset transparentize(black, 0.5)
+            box-shadow: 1px 2px 4px transparentize(black, 0.9)
+            path
+              fill: $jet
+            &:hover
+              box-shadow: 1px 2px 4px transparentize(black, 0.5)
+        #insta
+          &:hover
+            path
+              fill: $smoky-black
+
+        #fb
+          &:hover
+            path
+              fill: $desat-cyan
+        #twit
+          &:hover
+            path
+              fill: $desat-cyan-bright
+
+    .contact-card
+      max-width: 700px
+      width: 80%
+      margin: 5rem auto 0
+      padding: 3rem 5rem
+      background: white
+      border-radius: 3px
+      box-shadow: 30px 30px 30px -10px transparentize(black, 0.7)
+      text-align: center
+      .call-to-action
+        border: none
+        padding: 0.45rem 1rem
+        background: $jet
+        color: white
+        border-radius: 3px
+        font-size: 1rem
+        box-shadow: 2px 2px 6px transparentize(black, 0.5)
+        &:hover
+          background: $desat-cyan
+          box-shadow: 3px 3px 8px transparentize(black, 0.7)
+      h3
+        margin: 0
+      .fan-form
+        max-width: 400px
+        width: 70%
+        margin: 2.5rem auto 1rem
+        input,textarea
+          border-left: 2px solid $desat-cyan
+          border-right: 2px solid $desat-cyan
+          border-bottom: 2px solid $desat-cyan
+          &:focus
+            box-shadow: 1px 0 0 $desat-cyan, -1px 0px 0 $desat-cyan, 0 1px 0 $desat-cyan
+        label
+          padding-left: 1.25rem
+        #submit-btn
+          border: none
+          border-radius: 3px
+          padding: 0.75rem 3.5rem
+          background: $tuscan-red
+          color: white
+          font-size: 1.25rem
+          box-shadow: 2px 2px 6px transparentize(black, 0.3)
+          &:hover
+            box-shadow: 3px 3px 8px transparentize(black, 0.4)
+
   footer
-    background: gains
+    background: $gainsboro
     .container
       width: 90%
       padding: 5rem 0 1.25em
@@ -321,7 +421,7 @@ body
               //box-shadow: 0px 0px 1px inset transparentize(black, 0.5)
               box-shadow: 1px 2px 4px transparentize(black, 0.9)
               path
-                fill: $smoky-black
+                fill: $jet
               &:hover
                 box-shadow: 1px 2px 4px transparentize(black, 0.5)
           #insta
@@ -332,7 +432,7 @@ body
           #fb
             &:hover
               path
-                fill: $jet
+                fill: $smoky-black
           #twit
             &:hover
               path

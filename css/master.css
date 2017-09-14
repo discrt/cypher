@@ -7045,8 +7045,97 @@ body {
           font-size: 3.25rem; }
         body #action .container .row .s1 {
           display: none; } }
+  body #contact-wrapper {
+    padding: 5rem 0; }
+    body #contact-wrapper .address-card {
+      max-width: 600px;
+      width: 80%;
+      margin: 2rem auto;
+      background: #805050;
+      padding: 2rem 8rem;
+      text-align: left;
+      border-radius: 3px;
+      box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.4); }
+      body #contact-wrapper .address-card h3 {
+        text-align: center;
+        padding-bottom: 0.5rem;
+        color: white;
+        font-size: 3.5rem; }
+      body #contact-wrapper .address-card li {
+        padding: 0.5rem 0; }
+        body #contact-wrapper .address-card li i {
+          color: #66AAA0;
+          padding-right: 1.5rem;
+          font-size: 24px;
+          vertical-align: -0.25ex; }
+        body #contact-wrapper .address-card li a {
+          color: white;
+          font-size: 1.15rem; }
+      body #contact-wrapper .address-card .social-icons {
+        padding: 1rem 0; }
+        body #contact-wrapper .address-card .social-icons a {
+          margin: 0 1rem; }
+          body #contact-wrapper .address-card .social-icons a svg {
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); }
+            body #contact-wrapper .address-card .social-icons a svg path {
+              fill: #333444; }
+            body #contact-wrapper .address-card .social-icons a svg:hover {
+              box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); }
+        body #contact-wrapper .address-card .social-icons #insta:hover path {
+          fill: #0a0a0a; }
+        body #contact-wrapper .address-card .social-icons #fb:hover path {
+          fill: #669999; }
+        body #contact-wrapper .address-card .social-icons #twit:hover path {
+          fill: #66AAA0; }
+    body #contact-wrapper .contact-card {
+      max-width: 700px;
+      width: 80%;
+      margin: 5rem auto 0;
+      padding: 3rem 5rem;
+      background: white;
+      border-radius: 3px;
+      box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, 0.3);
+      text-align: center; }
+      body #contact-wrapper .contact-card .call-to-action {
+        border: none;
+        padding: 0.45rem 1rem;
+        background: #333444;
+        color: white;
+        border-radius: 3px;
+        font-size: 1rem;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+        body #contact-wrapper .contact-card .call-to-action:hover {
+          background: #669999;
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); }
+      body #contact-wrapper .contact-card h3 {
+        margin: 0; }
+      body #contact-wrapper .contact-card .fan-form {
+        max-width: 400px;
+        width: 70%;
+        margin: 2.5rem auto 1rem; }
+        body #contact-wrapper .contact-card .fan-form input, body #contact-wrapper .contact-card .fan-form textarea {
+          border-left: 2px solid #669999;
+          border-right: 2px solid #669999;
+          border-bottom: 2px solid #669999; }
+          body #contact-wrapper .contact-card .fan-form input:focus, body #contact-wrapper .contact-card .fan-form textarea:focus {
+            box-shadow: 1px 0 0 #669999, -1px 0px 0 #669999, 0 1px 0 #669999; }
+        body #contact-wrapper .contact-card .fan-form label {
+          padding-left: 1.25rem; }
+        body #contact-wrapper .contact-card .fan-form #submit-btn {
+          border: none;
+          border-radius: 3px;
+          padding: 0.75rem 3.5rem;
+          background: #805050;
+          color: white;
+          font-size: 1.25rem;
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); }
+          body #contact-wrapper .contact-card .fan-form #submit-btn:hover {
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); }
   body footer {
-    background: gains; }
+    background: #dddddd; }
     body footer .container {
       width: 90%;
       padding: 5rem 0 1.25em; }
@@ -7074,13 +7163,13 @@ body {
             border-radius: 100%;
             box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); }
             body footer .container .row .social-icons a svg path {
-              fill: #0a0a0a; }
+              fill: #333444; }
             body footer .container .row .social-icons a svg:hover {
               box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); }
         body footer .container .row .social-icons #insta:hover path {
           fill: #805050; }
         body footer .container .row .social-icons #fb:hover path {
-          fill: #333444; }
+          fill: #0a0a0a; }
         body footer .container .row .social-icons #twit:hover path {
           fill: #66AAA0; }
     body footer p {
