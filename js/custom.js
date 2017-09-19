@@ -25,10 +25,10 @@ $('.modal').modal();
     scale: 0.95,
   });
   sr.reveal('header .container video', {delay: 300, reset: true});
-  sr.reveal('#collab .container', {delay: 300, reset: true});
-  sr.reveal('#collab .sponsors', {delay: 300, reset: true});
-  sr.reveal('#action .row', {delay: 300, reset: true});
-  sr.reveal('.blog-section .row', {delay: 300, reset: true});
+  sr.reveal('#collab .container .col', {delay: 300, reset: true});
+  sr.reveal('#collab .sponsors  .col', {delay: 300, reset: true});
+  sr.reveal('#action .row  .col', {delay: 300, reset: true});
+  sr.reveal('.blog-section .row ', {delay: 300, reset: true});
   sr.reveal('#contact-wrapper .address-card', {delay: 300, reset: true});
   sr.reveal('#contact-wrapper .contact-1');
 
