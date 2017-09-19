@@ -33,6 +33,10 @@ body
             size: 1rem
             weight: 700
           text-transform: uppercase
+      .active-page
+        a
+          color: $desat-cyan-bright
+
   #mobile-demo
     background-color: $gainsboro
     padding: 2rem
@@ -40,7 +44,8 @@ body
 
   header
     background:
-      image: url('../img/drawing.svg')
+      image: url('../img/header.svg')
+      position: center
       size: cover
 
     height: 150vh
@@ -53,8 +58,7 @@ body
         top: 20vh
         right: 15vw
         border-radius: 3px
-        opacity: 0.8
-        box-shadow: 20px 20px 30px -5px transparentize(black, 0.5)
+        box-shadow: 30px 30px 30px transparentize(black, 0.7)
 
 
       .row1
@@ -79,10 +83,11 @@ body
             color: $desat-cyan-bright
             font-family: 'stainy', cursive
             //font-size: 5rem
-            text-shadow: 0px 0px 3px transparentize(black, 0.8)
+            text-shadow: 1px 1px 0px transparentize(white, 0.5), 0px 0px 3px transparentize(black, 0.8)
           p
             margin: 0 0 1rem 0
             color: white
+            text-shadow: 0px 0px 2px transparentize(black, 0.8)
           .call-to-action1
             color: $desat-cyan-bright
             border-radius: 2px
@@ -96,11 +101,13 @@ body
             &:hover
               color: white
               background: $tuscan-red
-              box-shadow: 2px 2px 12px transparentize(black, 0.5)
-
+              box-shadow: 2px 4px 12px transparentize(black, 0.5)
+      @media (min-width: 1281px)
+        h1
+          font-size: 6.5rem
       @media (max-width: 1280px)
         h1
-          font-size: 4rem
+          font-size: 6rem
       @media (max-width: 1000px)
         video
           width: 100vw
@@ -116,13 +123,13 @@ body
           //height: 40vh
           padding-left: 0
         h1
-          font-size: 3.5rem
           margin: 1rem 0
+          font-size: 5rem
         .call-to-action1
           padding: 0.5rem 1.75rem
-      @media (max-width: 1000px)
+      @media (max-width: 820px)
         h1
-          font-size: 3rem
+          font-size: 4.25rem
     @media (max-width: 600px)
       .container
         text-align: center
@@ -135,7 +142,7 @@ body
           left: -50%
           box-shadow: none
         h1
-          font-size: 3.25rem
+          font-size: 4rem
         .s1
           display: none
     @media (max-width: 420px)
@@ -218,9 +225,11 @@ body
           filter: saturate(0.8)
   #action
     background:
-      image: url('../img/drawing.svg')
+      image: url('../img/action.svg')
       position: center
       size: cover
+    @media (max-width: 600px)
+      background-image: url('../img/mob-action.svg')
     .container
       padding: 3rem 0
       .row
@@ -290,6 +299,12 @@ body
             display: none
   #contact-wrapper
     padding: 5rem 0
+    background:
+      image: url('../img/contact-bg.svg')
+      position: center
+      size: cover
+    @media (max-width: 600px)
+      background-image: url('../img/mob-action.svg')
     .address-card
       max-width: 600px
       width: 90%

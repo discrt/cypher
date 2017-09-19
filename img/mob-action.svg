@@ -14,7 +14,7 @@
    viewBox="0 0 2660.4008 2388.4813"
    id="svg5132"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="mob-action.svg">
   <metadata
      id="metadata5354">
     <rdf:RDF>
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,15 +40,27 @@
      inkscape:window-height="744"
      id="namedview5352"
      showgrid="false"
-     inkscape:zoom="0.04"
-     inkscape:cx="1767.5934"
-     inkscape:cy="1212.4816"
+     inkscape:zoom="0.08"
+     inkscape:cx="991.98563"
+     inkscape:cy="1187.3553"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg5132" />
   <defs
      id="defs5134">
+    <linearGradient
+       id="linearGradient4572">
+      <stop
+         stop-color="#393a4c"
+         offset="0"
+         id="stop4574" />
+      <stop
+         style="stop-color:#101011;stop-opacity:1"
+         stop-color="#0a0a0a"
+         offset="1"
+         id="stop4576" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4435">
       <stop
@@ -357,7 +370,7 @@
        xlink:href="#b"
        gradientUnits="userSpaceOnUse"
        x2="-271.92"
-       gradientTransform="matrix(1,0,0,0.89779,1580,638.8)"
+       gradientTransform="matrix(1.0003008,0,0,0.89779,1579.4753,638.8)"
        y1="-402.32"
        x1="-271.92" />
     <filter
@@ -557,33 +570,30 @@
     </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4435"
+       xlink:href="#linearGradient4572"
        id="linearGradient4433"
        x1="1315.85"
-       y1="12859.578"
+       y1="17597.105"
        x2="1315.85"
-       y2="-6614.9131"
+       y2="-7834.522"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.77725348,0,0,0.77725351,591.21987,428.28746)" />
+       gradientTransform="matrix(0.62881249,0,0,0.62881251,2209.8713,34.904287)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4435"
+       id="linearGradient4551"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.86568654,0,0,0.86568659,1833.5628,819.45896)"
+       x1="1315.85"
+       y1="8402.5273"
+       x2="1315.85"
+       y2="-1136.1525" />
   </defs>
   <rect
      id="rect5306"
-     x="0"
+     x="-1.0000057"
      y="-9.7656251e-05"
-     width="2660.3999"
+     width="2661.2"
      height="2388.5"
      style="color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:url(#ak);color-rendering:auto;image-rendering:auto;shape-rendering:auto" />
-  <text
-     transform="scale(1.0013058,0.99869591)"
-     sodipodi:linespacing="125%"
-     id="text4423"
-     y="1636.4943"
-     x="-1004.1545"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:573.92541504px;line-height:125%;font-family:'Stainy Personal Use Only';-inkscape-font-specification:'Stainy Personal Use Only, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4433);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     xml:space="preserve"><tspan
-       y="1636.4943"
-       x="-1004.1545"
-       id="tspan4425"
-       sodipodi:role="line"
-       style="fill:url(#linearGradient4433);fill-opacity:1">The   Cypher  Projekt</tspan></text>
 </svg>
