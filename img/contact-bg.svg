@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +40,9 @@
      inkscape:window-height="744"
      id="namedview5352"
      showgrid="false"
-     inkscape:zoom="0.16"
-     inkscape:cx="1017.5934"
-     inkscape:cy="1712.4816"
+     inkscape:zoom="0.01"
+     inkscape:cx="494.66876"
+     inkscape:cy="1127.6806"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -561,11 +561,11 @@
        xlink:href="#linearGradient4435"
        id="linearGradient4433"
        x1="1302.0977"
-       y1="18386.979"
+       y1="25288.168"
        x2="1302.0977"
-       y2="-5427.7661"
+       y2="-6182.584"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.87769599,0,0,0.87769606,1827.3913,-265.6034)" />
+       gradientTransform="matrix(0.87769599,0,0,0.87769606,1890.7882,-189.88904)" />
   </defs>
   <rect
      id="rect5306"
@@ -578,12 +578,12 @@
      transform="scale(0.94642397,1.0566089)"
      sodipodi:linespacing="125%"
      id="text4423"
-     y="1098.7375"
-     x="25.851761"
+     y="1174.4519"
+     x="89.24865"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:648.09240723px;line-height:125%;font-family:'Stainy Personal Use Only';-inkscape-font-specification:'Stainy Personal Use Only, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4433);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
-       y="1098.7375"
-       x="25.851761"
+       y="1174.4519"
+       x="89.24865"
        id="tspan4425"
        sodipodi:role="line"
        style="fill:url(#linearGradient4433);fill-opacity:1">Contact   Us</tspan></text>

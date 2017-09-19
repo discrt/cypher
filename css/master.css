@@ -6837,7 +6837,7 @@ body {
     background-image: url("../img/header.svg");
     background-position: center;
     background-size: cover;
-    height: 150vh; }
+    height: 160vh; }
     body header .container {
       width: 85%; }
       body header .container video {
@@ -6935,7 +6935,7 @@ body {
   body #collab .container {
     width: 75%;
     text-align: center;
-    margin-top: -30vh; }
+    margin-top: -20vh; }
     body #collab .container .row .card {
       padding-bottom: 1.25rem;
       background: #fefefe;
@@ -6995,9 +6995,9 @@ body {
       body #action {
         background-image: url("../img/mob-action.svg"); } }
     body #action .container {
-      padding: 3rem 0; }
+      padding: 4rem 0; }
       body #action .container .row {
-        padding: 6rem 0; }
+        padding: 7rem 0; }
         body #action .container .row .s12 {
           height: 55vh;
           background-position: center;
@@ -7065,7 +7065,7 @@ body {
     body #contact-wrapper .address-card {
       max-width: 600px;
       width: 90%;
-      margin: 2rem auto;
+      margin: 2rem auto 10rem;
       background: #805050;
       padding: 2rem 0;
       text-align: left;
