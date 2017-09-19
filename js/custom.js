@@ -28,7 +28,7 @@ $('.modal').modal();
   sr.reveal('#collab .container .col', {delay: 300, reset: true});
   sr.reveal('#collab .sponsors  .col', {delay: 300, reset: true});
   sr.reveal('#action .row  .col', {delay: 300, reset: true});
-  sr.reveal('.blog-section .row ', {delay: 300, reset: true});
+  sr.reveal('.blog-section .row ', {delay: 100});
   sr.reveal('#contact-wrapper .address-card', {delay: 300, reset: true});
   sr.reveal('#contact-wrapper .contact-1');
 

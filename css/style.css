@@ -39,10 +39,13 @@ body{
   box-shadow: 2px 2px 8px black;
 }
 .container .row {
-  background: gainsboro;
+
   height: 17rem;
-  box-shadow: 5px 5px 10px -3px black;
 }
+@media (min-width: 601px){
+  .container .row{
+  box-shadow: 5px 5px 10px -3px black;
+}}
 @media (max-width: 405px) {
   .blog-section .row{
     height: 19rem;
