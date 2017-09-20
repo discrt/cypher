@@ -6812,6 +6812,7 @@ body {
     background: #0a0a0a;
     transition: all 0.3s ease-in-out; }
     body nav .container {
+      visibility: hidden;
       max-width: 50%;
       display: flex;
       justify-content: center; }
@@ -6939,7 +6940,7 @@ body {
     body #collab .container .row .card {
       padding-bottom: 1.25rem;
       background: #fefefe;
-      box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.5); }
+      box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); }
     body #collab .container .row .image {
       height: 12rem;
       margin-bottom: 1rem;
@@ -7063,6 +7064,7 @@ body {
       body #contact-wrapper {
         background-image: url("../img/mob-action.svg"); } }
     body #contact-wrapper .address-card {
+      visibility: hidden;
       max-width: 600px;
       width: 90%;
       margin: 2rem auto 10rem;
@@ -7110,6 +7112,8 @@ body {
           fill: #669999; }
         body #contact-wrapper .address-card .social-icons #twit:hover path {
           fill: #66AAA0; }
+    body #contact-wrapper .contact-1 {
+      visibility: hidden; }
     body #contact-wrapper .contact-card {
       max-width: 700px;
       width: 80%;
@@ -7141,6 +7145,7 @@ body {
         width: 70%;
         margin: 2.5rem auto 1rem; }
         body #contact-wrapper .contact-card .fan-form input, body #contact-wrapper .contact-card .fan-form textarea {
+          padding-left: 0.75rem;
           border-left: 2px solid #669999;
           border-right: 2px solid #669999;
           border-bottom: 2px solid #669999; }
