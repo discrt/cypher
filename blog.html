@@ -51,7 +51,7 @@
     <div class="filler">
 
     </div>
-    <div class="row">
+    <div class="row blog-row">
       <div class="col s12 m5 img" style="background-image:url('https://fillmurray.com/300/200')"></div>  <!--php code needed here for the simage link same as the post's image-->
       <div class="col s12 m7">
         <h3>Title of the Blog</h3>   <!--php code needed here-->
@@ -65,7 +65,7 @@
 
 
     <!--php code needed here iteration of the same for multiple post-->
-    <div class="row">
+    <div class="row  blog-row">
       <div class="col s12 m5 img" style="background-image:url('https://fillmurray.com/600/400')"></div>
       <div class="col s12 m7">
         <h3>Title of the 2nd Blog</h3>
@@ -73,7 +73,7 @@
         <p>21/07/2017</p><a href="post.html">Read More</a>
       </div>
     </div>
-    <div class="row">
+    <div class="row  blog-row">
       <div class="col s12 m5 img" style="background-image:url('https://fillmurray.com/500/400')"></div>
       <div class="col s12 m7">
         <h3>Title of the 3rd Blog</h3>
@@ -83,6 +83,38 @@
     </div>
   </div>
   <button>Load More</button>  <!--php code needed here for loading more content or got to the next page-->
+
+  <div class="modal" id="modal0">
+    <div class="modal-content">
+      <div class="publish">
+        <h5>Publish an article</h5>
+        <form action="post"></form>    <!--php code needed here for the whole form-->
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <input type="text" name="username" placeholder="Username"/>
+            </div>
+            <div class="col s12 m6">
+              <input type="text" name="password" placeholder="password"/>
+            </div>
+          </div>
+          <div class="row">
+            <textarea class="materialize-textarea" name="post" placeholder="Type your Post"></textarea>
+          </div>
+          <div class="file-field input-field">
+        <div class="btn">
+          <span>Image</span>
+          <input type="file">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">
+        </div>
+      </div>
+          <input class="submit-button" type="submit"/>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
   <div class="container">
     <div class="row">
@@ -94,7 +126,7 @@
         <a href="#">Privacy Policy</a>
         <a href="#">Legal Terms</a>
         <a href="#">Testimonials</a>
-        <a href="#">Publish</a>
+        <a href="#modal0">Publish</a>
       </div>
       <div class="col s6 m3">
         <h5>Info</h5>

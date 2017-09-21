@@ -38,12 +38,12 @@ body{
   background: rgba(128, 80, 80, 1);
   box-shadow: 2px 2px 8px black;
 }
-.container .row {
+.container .blog-row {
 
   height: 17rem;
 }
 @media (min-width: 601px){
-  .container .row{
+  .container .blog-row{
   box-shadow: 5px 5px 10px -3px black;
 }}
 @media (max-width: 405px) {

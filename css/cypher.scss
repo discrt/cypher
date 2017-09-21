@@ -1,0 +1,31 @@
+.loader{
+  position: fixed;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: -webkit-linear-gradient(left,#333444,#0a0a0a);
+  z-index: 999;
+  svg{
+    position: absolute;
+    left:-50px;
+    top:180px;
+  }
+  .image{
+    position: relative;
+    margin: 0px auto;
+    width:100px;
+  }
+  #bg{
+    position: relative;
+    margin: 0px auto;
+    height:430px;
+    width:210px;
+    padding: 2px;
+    clip-path:polygon(50% 0,50.02% 0,50.02% 100%,50% 100%);
+  }
+  #cypher{
+    position: absolute;
+    left:-48px;
+    top:107px;
+  }
+}

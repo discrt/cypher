@@ -1,3 +1,13 @@
+window.addEventListener('load',function(){
+$('.loader').hide();
+sr.reveal('header .container video', {delay: 400,origin: 'left', distance: '50px', scale: 0.90});
+sr.reveal('header .container .left', {origin: 'left', distance: '10vw',duration: 900, delay: 1200});
+sr.reveal('header .container .right', {origin: 'right', distance: '10vw',duration: 900,  delay: 1200});
+sr.reveal('header .container h1', {origin: 'bottom', distance: '6vh',  delay: 400});
+sr.reveal('header .container p', {origin: 'bottom', distance: '5vh', delay: 700});
+sr.reveal('header .container .calls', {origin: 'bottom', distance: '4vh', delay: 900});
+
+},false);
 $(document).ready(function(){
   $(".button-collapse").sideNav();
 
@@ -29,12 +39,6 @@ $('.modal').modal();
 
   sr.reveal('.navbar-fixed .material-icons', {origin: 'left', distance: '50px', delay: 300});
 
-  sr.reveal('header .container video', {delay: 200,origin: 'left', distance: '50px', scale: 0.90});
-  sr.reveal('header .container .left', {origin: 'left', distance: '10vw',duration: 900, delay: 1200});
-  sr.reveal('header .container .right', {origin: 'right', distance: '10vw',duration: 900,  delay: 1200});
-  sr.reveal('header .container h1', {origin: 'bottom', distance: '6vh',  delay: 400});
-  sr.reveal('header .container p', {origin: 'bottom', distance: '5vh', delay: 700});
-  sr.reveal('header .container .calls', {origin: 'bottom', distance: '4vh', delay: 900});
 
   sr.reveal('#collab .container .col', {delay: 100, reset: true}, 200);
   sr.reveal('#collab .sponsors  .col', {delay: 100, reset: true}, 100);
